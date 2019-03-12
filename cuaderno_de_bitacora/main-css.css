@@ -1,0 +1,146 @@
+body{
+    overflow-x: hidden;
+    
+}
+header{
+    background-color:rgb(146, 176, 2);
+    padding: 10px 0px;
+    margin-top: 0px;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+header div{
+    align-items: center;
+}
+.imagen-logo{
+    border-radius: 20px;
+}
+.logo{
+display: inline-block;
+}
+.texto-desplegable{
+    color: white;
+    font-size: 25px;
+}
+main{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.login{
+    background-color:rgb(149, 149, 149);
+    padding:20%; 
+    margin-top:20%; 
+    margin-bottom:20%;
+    border-radius: 7%; 
+    text-align: center;
+
+}
+.dia{
+    background-color: rgb(149, 149, 149);
+    padding:30px;
+    margin-top: 20px;
+    margin:24px;
+    border-radius: 20%; 
+    text-align: center;
+}
+.dia a{
+    color: black;
+    text-decoration: none;
+}
+.fecha, .titulo{
+    font-size: 40px;
+}
+
+.info{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(69, 69, 69);
+}
+.tareas{
+    margin-bottom: 40px;
+}
+
+.titulo-tareas{
+    color: rgb(69, 69, 69);
+    font-size:40px;
+    text-decoration-line: underline;
+}
+.icono{
+    color: rgb(69, 69, 69);
+    font-size: 40px;
+    display: block;
+    display: inline;
+    padding-right: 10px;
+}
+.nav-link{
+    color:white;
+    background-color: rgb(149, 149, 149);
+}
+.submit, .boton{
+    background-color:rgb(146, 176, 2);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+        margin: 10px;
+        height: 50px;
+}
+.submit-login{
+    background-color:rgb(146, 176, 2);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+        margin: 10px;
+        height: 40px;
+}
+.submit-login:hover{
+    background-color: rgb(69, 69, 69);
+}
+.submit:hover,.boton:hover{
+    background-color: rgb(149, 149, 149);
+}
+li a .active{
+    color: rgb(149, 149, 149);
+}
+.cerrar-tarea{
+    color: red;
+    margin-left: 10px;
+}
+a i{
+    color: rgb(69, 69, 69);
+}
+.tarea{
+    display: flex;
+    padding-right: 500px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.menu{
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.datosPerfil{
+    padding: 100px;
+    
+}
+footer{
+    
+    padding: 10px;
+    background-color: rgb(69, 69, 69);
+    margin-bottom: 0px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+
+
+}
+footer div p{
+    color: white;
+}

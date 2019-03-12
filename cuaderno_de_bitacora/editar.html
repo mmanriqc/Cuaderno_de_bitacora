@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Editar datos</title>
+    <link rel="stylesheet" href="main-css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="imagenes/everis.jpg" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="row">
+            <div class="col-lg-4 text-center">
+                <div>
+                    <h3><img src="imagenes/everis.jpg" alt="logo" class="imagen-logo img-fluid" width="100"> <span
+                            class="logo">Agenda de trabajo</span> </h3>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center"></div>
+            <div class="col-lg-4 text-center">
+                <div>
+                    <div class="dropdown ">
+                        <button type="button" class="btn btn-white dropdown-toggle " data-toggle="dropdown">
+                            <span class="texto-desplegable"> <i class="fas fa-address-card"></i> Usuario </span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Informacion</a>
+                            <a class="dropdown-item" href="perfil.html">Mi perfil</a>
+                            <a class="dropdown-item" href="login.html">Salir <i class="fas fa-sign-out-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <i class="fas fa-question-circle "></i> Para que los cambios sean permanentes pulsa el boton de
+            guardar cambios.
+        </div>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#tareas-hoy">Tareas de hoy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#incidencias">Incidencias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#tareas-manana">Tareas mañana</a>
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="tareas-hoy" class="container tab-pane active"><br>
+                <div class="col-lg-11 text-center">
+                    <p class="titulo"><a href="#"><i class="fas fa-angle-left "></i></a> Tareas de hoy <a href="#"><i
+                                class="fas fa-angle-right "></i></a></p>
+                    <form action="#">
+                        <div class="input-group mt-2 mb-2">
+                            <select class="form-control">
+                                <option>javaScript</option>
+                                <option>CSS</option>
+                                <option>NODE</option>
+                                <option>Personal</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="Nueva tarea">
+                        </div>
+                        <input class="submit" type="submit" value="Añadir tarea">
+                    </form>
+                </div>
+                <br>
+                <div class="col-md-11 text-center ">
+                    <h3 class="titulo-tareas">Tareas de hoy</h3>
+                    <div class="tarea">
+                        <div> <i class="fab fa-node icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit lor amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                    <div class="tarea">
+                        <div> <i class="fab fa-js icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Blaiuo
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                    <div class="tarea">
+                        <div> <i class="fab fa-css3 icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="incidencias" class="container tab-pane fade"><br>
+                <div class="col-lg-11 text-center">
+                    <p class="titulo"><a href="#"><i class="fas fa-angle-left "></i></a> Incidencias <a href="#"><i
+                                class="fas fa-angle-right "></i></a></p>
+                    <form action="#">
+                        <div class="input-group mt-2 mb-2">
+                            <select class="form-control">
+                                <option>javaScript</option>
+                                <option>CSS</option>
+                                <option>NODE</option>
+                                <option>Personal</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="Nueva tarea">
+                        </div>
+                        <input class="submit" type="submit" value="Añadir Incidencia">
+                    </form>
+                </div>
+                <br>
+                <div class="col-md-11 text-center ">
+                    <h3 class="titulo-tareas">Incidencias</h3>
+                    <div class="tarea">
+                        <div> <i class="fab fa-node icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit lor amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                    <div class="tarea">
+                        <div> <i class="fab fa-js icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                    <div class="tarea">
+                        <div> <i class="fab fa-css3 icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div id="tareas-manana" class="container tab-pane fade"><br>
+                <div class="col-lg-11 text-center">
+                    <p class="titulo"><a href="#"><i class="fas fa-angle-left "></i></a> Tareas para mañana <a href="#"><i
+                                class="fas fa-angle-right "></i></a></p>
+                    <form action="#">
+                        <div class="input-group mt-2 mb-2">
+                            <select class="form-control">
+                                <option>javaScript</option>
+                                <option>CSS</option>
+                                <option>NODE</option>
+                                <option>Personal</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="Nueva tarea">
+                        </div>
+                        <input class="submit" type="submit" value="Añadir tarea">
+                    </form>
+                </div>
+                <br>
+                <div class="col-md-11 text-center ">
+                    <h3 class="titulo-tareas">Tareas para mañana</h3>
+                    <div class="tarea">
+                        <div> <i class="fab fa-node icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit lor amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                    <div class="tarea">
+                        <div> <i class="fab fa-js icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                    <div class="tarea">
+                        <div> <i class="fab fa-css3 icono"></i></div>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quas
+                                quidem voluptatem namhic. Bla
+                            </p>
+                        </div>
+                        <div><i class="fas fa-times-circle cerrar-tarea"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <br />
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                </div>
+                <div class="col-sm-2">
+                    <p>Everis</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
